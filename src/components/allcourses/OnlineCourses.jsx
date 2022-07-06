@@ -11,7 +11,7 @@ const OnlineCourses = () => {
           <Heading subtitle='COURSES' title='Browse Our Online Courses' />
           <div className='content grid3'>
             {online.map((val) => (
-              <div className='box'>
+              <div key={val.id} className='box'>
                 <div className='img'>
                   <img src={val.cover} />
                   <img src={val.hoverCover} alt='' className='show' />

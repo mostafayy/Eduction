@@ -12,10 +12,9 @@ const HAbout = () => {
           <Heading subtitle='our courses' title='explore our popular online courses' />
 
           <div className='coursesCard'>
-            {/* copy code form  coursesCard */}
             <div className='grid2'>
               {coursesCard.slice(0, 3).map((val) => (
-                <div className='items'>
+                <div key={val.id} className='items'>
                   <div className='content flex'>
                     <div className='left'>
                       <div className='img'>
@@ -35,7 +34,7 @@ const HAbout = () => {
                       <div className='details'>
                         {val.courTeacher.map((details) => (
                           <>
-                            <div className='box'>
+                            <div key={details.id} className='box'>
                               <div className='dimg'>
                                 <img src={details.dcover} alt='' />
                               </div>
@@ -50,7 +49,7 @@ const HAbout = () => {
                     </div>
                   </div>
                   <div className='price'>
-                    <h3>
+                    <h3 >
                       {val.priceAll} / {val.pricePer}
                     </h3>
                   </div>

@@ -15,6 +15,7 @@ function App() {
     <>
  <Router>
     <Header/>
+    <Home/>
 <Routes>
   
 <Route exact path="/" element={<Home/>}/>

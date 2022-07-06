@@ -8,7 +8,7 @@ const CoursesCard = () => {
       <section className='coursesCard'>
         <div className='container grid2'>
           {coursesCard.map((val) => (
-            <div className='items'>
+            <div key={val.id} className='items'>
               <div className='content flex'>
                 <div className='left'>
                   <div className='img'>
