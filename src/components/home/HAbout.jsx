@@ -5,6 +5,9 @@ import "../allcourses/course.css"
 import { coursesCard } from "../../dummydata"
 
 const HAbout = () => {
+  
+  
+  
   return (
     <>
       <section className='homeAbout'>
@@ -13,8 +16,10 @@ const HAbout = () => {
 
           <div className='coursesCard'>
             <div className='grid2'>
-              {coursesCard.slice(0, 3).map((val) => (
-                <div key={val.id} className='items'>
+              {coursesCard.slice(0, 3).map((val) =>
+           
+                (
+                <div key={val.number} className='items'>
                   <div className='content flex'>
                     <div className='left'>
                       <div className='img'>
@@ -32,9 +37,13 @@ const HAbout = () => {
                         <label htmlFor=''>(5.0)</label>
                       </div>
                       <div className='details'>
-                        {val.courTeacher.map((details) => (
+                        {val.courTeacher.map((details) => 
+                        
+                        
+                      // console.log(val.id)
+                        (
                           <>
-                            <div key={details.id} className='box'>
+                            <div  className='box'>
                               <div className='dimg'>
                                 <img src={details.dcover} alt='' />
                               </div>

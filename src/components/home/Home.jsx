@@ -11,7 +11,7 @@ const Home = () => {
         <Hero/>
         <div className="margin"></div>
         <AboutCard/>
-        <HAbout/>
+        {/* <HAbout/> */}
         <Testimonal/>
         <Hblog />
       <Hprice />
