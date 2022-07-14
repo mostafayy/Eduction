@@ -49,7 +49,7 @@ export const homeAbout = [
     {
       id: 102,
       number: 202,
-      cover: "../images/courses/c1.png",
+      cover: "./images/courses/c1.png",
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
@@ -66,7 +66,7 @@ export const homeAbout = [
       
       id: 166,
       number: 203,
-      cover: "../images/courses/c2.png",
+      cover: "./images/courses/c2.png",
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
@@ -83,7 +83,7 @@ export const homeAbout = [
       
       id: 144,
       number: 211,
-      cover: "../images/courses/c3.png",
+      cover: "./images/courses/c3.png",
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
@@ -98,7 +98,7 @@ export const homeAbout = [
     {
       id: 155,
       number: 209,
-      cover: "../images/courses/c4.png",
+      cover: "./images/courses/c4.png",
       coursesName: "Introducing to Programming with WordPress",
       courTeacher: [
         {
@@ -113,7 +113,7 @@ export const homeAbout = [
     {
       id: 106,
       number: 208,
-      cover: "../images/courses/c5.png",
+      cover: "./images/courses/c5.png",
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
@@ -128,7 +128,7 @@ export const homeAbout = [
     {
       id: 107,
       number: 207,
-      cover: "../images/courses/c6.png",
+      cover: "./images/courses/c6.png",
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
@@ -144,7 +144,7 @@ export const homeAbout = [
     {
       id: 108,
       number: 206,
-      cover: "../images/courses/c7.png",
+      cover: "./images/courses/c7.png",
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
@@ -159,7 +159,7 @@ export const homeAbout = [
     {
       id: 109,
       number: 205,
-      cover: "../images/courses/c8.png",
+      cover: "./images/courses/c8.png",
       coursesName: "Introducing to with JAVA",
       courTeacher: [
         {
@@ -175,7 +175,7 @@ export const homeAbout = [
     {
       id: 100,
       number: 230,
-      cover: "../images/courses/c9.png",
+      cover: "./images/courses/c9.png",
       coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
@@ -392,7 +392,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b1.webp",
+      cover: "./images/blog/b1.webp",
     },
     {
       id: 2,
@@ -401,7 +401,7 @@ export const homeAbout = [
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b2.webp",
+      cover: "./images/blog/b2.webp",
     },
     {
       id: 3,
@@ -410,7 +410,7 @@ export const homeAbout = [
       com: "10 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b3.webp",
+      cover: "./images/blog/b3.webp",
     },
     {
       id: 4,
@@ -419,7 +419,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b4.webp",
+      cover: "./images/blog/b4.webp",
     },
     {
       id: 5,
@@ -428,7 +428,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b5.webp",
+      cover: "./images/blog/b5.webp",
     },
     {
       id: 6,
@@ -437,7 +437,7 @@ export const homeAbout = [
       com: "12 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "../images/blog/b6.webp",
+      cover: "./images/blog/b6.webp",
     },
   ]
   export const testimonal = [
