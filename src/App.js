@@ -18,14 +18,14 @@ function App() {
 
 <Routes>
   
-<Route exact path="/" element={<Home/>}/>
-<Route exact path="/Eduction" element={<Home/>}/>
-<Route exact path="/about" element={<About/>}/>
-<Route exact path="/courses" element={<CourseHome/>}/>
-<Route exact path="/team" element={<Team/>}/>
-<Route exact path="/pricing" element={<Pricing/>}/>
-<Route exact path="/journal" element={<Blog/>}/>
-<Route exact path="/contact" element={<Contact/>}/>
+<Route  path="/" element={<Home/>}/>
+<Route  path="/Eduction" element={<Home/>}/>
+<Route  path="/about" element={<About/>}/>
+<Route  path="/courses" element={<CourseHome/>}/>
+<Route  path="/team" element={<Team/>}/>
+<Route  path="/pricing" element={<Pricing/>}/>
+<Route  path="/journal" element={<Blog/>}/>
+<Route path="/contact" element={<Contact/>}/>
 </Routes>
 <Footer/>
  </Router>
