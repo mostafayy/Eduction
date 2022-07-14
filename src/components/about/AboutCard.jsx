@@ -3,12 +3,13 @@ import Awrapper from './Awrapper'
 import {homeAbout}from '../../dummydata'
 import  Heading from '../common/heading/Heading'
 const AboutCard = () => {
+
   return (
     <>
     <section className='aboutHome'>
       <div className='container flexSB'>
         <div className='left row'>
-          <img src='./images/about.webp' alt='' />
+          <img src={`${process.env.REACT_APP_PUBLIC_URL}/images/about.webp`} alt='' />
         </div>
         <div className='right row'>
           <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' />

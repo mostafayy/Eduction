@@ -49,13 +49,13 @@ export const homeAbout = [
     {
       id: 102,
       number: 202,
-      cover: "./images/courses/c1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c1.png`,
       coursesName: "Introducing to Software Engineering",
       courTeacher: [
         {
           
-          dcover: "./images/back.webp",
-          name: "by John Smith",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+      name: "by John Smith",
           totalTime: "50 lectures (190 hrs)",
         },
       ],
@@ -66,13 +66,13 @@ export const homeAbout = [
       
       id: 166,
       number: 203,
-      cover: "./images/courses/c2.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c2.png`,
       coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
       courTeacher: [
         {
           
-          dcover: "./images/back.webp",
-          name: "by Ram Gurung",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+      name: "by Ram Gurung",
           totalTime: "30 lectures (125 hrs)",
         },
       ],
@@ -83,12 +83,12 @@ export const homeAbout = [
       
       id: 144,
       number: 211,
-      cover: "./images/courses/c3.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c3.png`,
       coursesName: "HTML, CSS, and Javascript for Web Developers",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Saroj Nepal",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+      name: "by Saroj Nepal",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
@@ -98,12 +98,12 @@ export const homeAbout = [
     {
       id: 155,
       number: 209,
-      cover: "./images/courses/c4.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c4.png`,
       coursesName: "Introducing to Programming with WordPress",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Prabin Thapa Mager",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+       name: "by Prabin Thapa Mager",
           totalTime: "20 lectures (20 hrs)",
         },
       ],
@@ -113,12 +113,12 @@ export const homeAbout = [
     {
       id: 106,
       number: 208,
-      cover: "./images/courses/c5.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c5.png`,
       coursesName: "Introducing to Programming with ReactJS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Sunil Bishowkaram",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+           name: "by Sunil Bishowkaram",
           totalTime: "100 lectures (150 hrs)",
         },
       ],
@@ -128,13 +128,13 @@ export const homeAbout = [
     {
       id: 107,
       number: 207,
-      cover: "./images/courses/c6.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c6.png`,
       coursesName: "Learn Frontend Programming Language",
       courTeacher: [
         {
           
-          dcover: "./images/back.webp",
-          name: "by Sunil Bishowkaram",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+        name: "by Sunil Bishowkaram",
           totalTime: "200 lectures (300 hrs)",
         },
       ],
@@ -144,12 +144,12 @@ export const homeAbout = [
     {
       id: 108,
       number: 206,
-      cover: "./images/courses/c7.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c7.png`,
       coursesName: "Introducing to with HTML / CSS",
       courTeacher: [
         {
-          dcover: "./images/back.webp",
-          name: "by Price",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+     name: "by Price",
           totalTime: "20 lectures (50 hrs)",
         },
       ],
@@ -159,13 +159,13 @@ export const homeAbout = [
     {
       id: 109,
       number: 205,
-      cover: "./images/courses/c8.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c8.png`,
       coursesName: "Introducing to with JAVA",
       courTeacher: [
         {
           
-          dcover: "./images/back.webp",
-          name: "by Petter",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+        name: "by Petter",
           totalTime: "80 lectures (200 hrs)",
         },
       ],
@@ -175,13 +175,13 @@ export const homeAbout = [
     {
       id: 100,
       number: 230,
-      cover: "./images/courses/c9.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/c9.png`,
       coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
       courTeacher: [
         {
     
-          dcover: "./images/back.webp",
-          name: "by Petter",
+          dcover: `${process.env.REACT_APP_PUBLIC_URL}/images/back.webp`,
+     name: "by Petter",
           totalTime: "50 lectures (50 hrs)",
         },
       ],
@@ -193,85 +193,85 @@ export const homeAbout = [
     
     {
       id: 16,
-      cover: "./images/courses/online/o1.png",
-      hoverCover: "./images/courses/online/o1.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o1.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o1.1.png`,
       courseName: "UI/UX Design Courses",
       course: "25 Courses",
     },
     {
       id: 17,
-      cover: "./images/courses/online/o2.png",
-      hoverCover: "./images/courses/online/o2.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o2.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o2.1.png`,
       courseName: "Art & Design",
       course: "25 Courses",
     },
     {
       id: 18,
-      cover: "./images/courses/online/o3.png",
-      hoverCover: "./images/courses/online/o3.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o3.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o3.1.png`,
       courseName: "Computer Science",
       course: "10 Courses",
     },
     {
       id: 19,
-      cover: "./images/courses/online/o4.png",
-      hoverCover: "./images/courses/online/o4.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o4.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o4.1.png`,
       courseName: "History & Archeologic",
       course: "15 Courses",
     },
     {
       id: 20,
-      cover: "./images/courses/online/o5.png",
-      hoverCover: "./images/courses/online/o5.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o5.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o5.1.png`,
       courseName: "Software Engineering",
       course: "30 Courses",
     },
     {
       id: 22,
-      cover: "./images/courses/online/o6.png",
-      hoverCover: "./images/courses/online/o6.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o6.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o6.1.png`,
       courseName: "Information Software",
       course: "60 Courses",
     },
     {
       id: 21,
-      cover: "./images/courses/online/o7.png",
-      hoverCover: "./images/courses/online/o7.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o7.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o7.1.png`,
       courseName: "Health & Fitness",
       course: "10 Courses",
     },
     {
       id: 23,
-      cover: "./images/courses/online/o8.png",
-      hoverCover: "./images/courses/online/o8.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o8.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o8.1.png`,
       courseName: "Marketing",
       course: "30 Courses",
     },
     {
       id: 24,
-      cover: "./images/courses/online/o9.png",
-      hoverCover: "./images/courses/online/o9.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o9.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o9.1.png`,
       courseName: "Graphic Design",
       course: "80 Courses",
     },
     {
       id: 25,
-      cover: "./images/courses/online/o10.png",
-      hoverCover: "./images/courses/online/o10.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o10.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o10.1.png`,
       courseName: "Music",
       course: "120 Courses",
     },
     {
       id: 26,
-      cover: "./images/courses/online/o11.png",
-      hoverCover: "./images/courses/online/o11.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o11.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o11.1.png`,
       courseName: "Business Administration",
       course: "17 Courses",
     },
     {
       id: 27,
-      cover: "./images/courses/online/o12.png",
-      hoverCover: "./images/courses/online/o12.1.png",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o12.png`,
+      hoverCover: `${process.env.REACT_APP_PUBLIC_URL}/images/courses/onlin/o12.1.png`,
       courseName: "Web Management",
       course: "17 Courses",
     },
@@ -279,49 +279,49 @@ export const homeAbout = [
   export const team = [
     {
       id: 28,
-      cover: "./images/team/t1.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/team/t1.webp`,
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
       id: 29,
-      cover: "./images/team/t2.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/team/t2.webp`,
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
       id: 31,
-      cover: "./images/team/t3.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/team/t3.webp`,
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
       id: 30,
-      cover: "./images/team/t4.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/team/t4.webp`,
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
       id: 32,
-      cover: "./images/team/t5.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/team/t5.webp`,
       name: "Ph.D Adrian Molises",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
       id: 33,
-      cover: "./images/team/t6.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/team/t6.webp`,
       name: "Ph.D Arthur MaGregor",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
       id: 34,
-      cover: "./images/team/t7.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/team/t7.webp`,
       name: "Ph.D Anna Hanzen",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
     {
       id: 35,
-      cover: "./images/team/t8.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}./images/team/t8.webp`,
       name: "Ph.D Brian Wooden",
       work: "DEVELOPER AND LEAD INSTRUCTOR",
     },
@@ -392,7 +392,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "./images/blog/b1.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/blog/b1.webp`
     },
     {
       id: 2,
@@ -401,7 +401,7 @@ export const homeAbout = [
       com: "5 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "./images/blog/b2.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/blog/b2.webp`
     },
     {
       id: 3,
@@ -410,7 +410,7 @@ export const homeAbout = [
       com: "10 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "./images/blog/b3.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/blog/b3.webp`
     },
     {
       id: 4,
@@ -419,7 +419,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "./images/blog/b4.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/blog/b4.webp`
     },
     {
       id: 5,
@@ -428,7 +428,7 @@ export const homeAbout = [
       com: "3 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "./images/blog/b5.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/blog/b5.webp`
     },
     {
       id: 6,
@@ -437,7 +437,7 @@ export const homeAbout = [
       com: "12 COMMENTS ",
       title: "Build your Dream Software & Engineering Career",
       desc: "A small river named Duden flows by their place and supplies it with the necessary regelialia.",
-      cover: "./images/blog/b6.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/blog/b6.webp`
     },
   ]
   export const testimonal = [
@@ -446,20 +446,20 @@ export const homeAbout = [
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t1.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/testo/t1.webp`,
     },
     {
       id: 2,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t2.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/testo/t2.webp`,
     },
     {
       id: 3,
       name: "ROGER SCOTT",
       post: "MARKETING MANAGER",
       desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-      cover: "./images/testo/t3.webp",
+      cover: `${process.env.REACT_APP_PUBLIC_URL}/images/testo/t3.webp`,
     },
   ]
