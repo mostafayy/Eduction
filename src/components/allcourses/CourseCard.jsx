@@ -8,7 +8,7 @@ const CoursesCard = () => {
       <section className='coursesCard'>
         <div className='container grid2'>
           {coursesCard.map((val) =>
-    console.log(val.id)
+    // console.log(val.id)
           
           (
             <div key={val.id} className='items'>
