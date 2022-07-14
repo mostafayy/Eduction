@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Eduction/static/css/main.e71425d4.css",
-    "main.js": "/Eduction/static/js/main.2a190b40.js",
+    "main.js": "/Eduction/static/js/main.c70ddf54.js",
     "static/media/back.webp": "/Eduction/static/media/back.93d3f802b480eeabae07.webp",
     "static/media/awrapper.webp": "/Eduction/static/media/awrapper.031ce77a398171427673.webp",
     "static/media/bg.webp": "/Eduction/static/media/bg.baa1024a4ae092566a75.webp",
     "index.html": "/Eduction/index.html",
     "main.e71425d4.css.map": "/Eduction/static/css/main.e71425d4.css.map",
-    "main.2a190b40.js.map": "/Eduction/static/js/main.2a190b40.js.map"
+    "main.c70ddf54.js.map": "/Eduction/static/js/main.c70ddf54.js.map"
   },
   "entrypoints": [
     "static/css/main.e71425d4.css",
-    "static/js/main.2a190b40.js"
+    "static/js/main.c70ddf54.js"
   ]
 }
